@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+
+
+.table td {
+  width: 250px;
+  height: 60px;
+  padding: 10px auto;
+  text-align: center;
+  font-family: "Quicksand";
+  font-size: 15px;
+}
+.table .head {
+  background-color: #24346a;
+  width: 250px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Quicksand";
+}
+
+.rw {
+  background-color: #d8e0df;
+  border-bottom: 1.2px solid #ffffff;
+  font-family: "Quicksand";
+  font-weight: bold;
+
+}
+
+.table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.List {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 90px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 0.5;
+  font-family: "Quicksand";
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.List:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bttn {
+  border: none;
+  padding: 9px 40px;
+  background-color: #24346a;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.bttn:hover {
+  color: #999b9b;
+  background-color: #284fcf;
+}
+
+.rw:hover {
+  font-weight: bolder;
+  background-color: whitesmoke;
+  color: #999b9b;
+}
+
+.pp {
+  width: 1000px;
+  height: 500px;
+}
+
+
+.top{
+  background-color: #162452;
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 60px auto 0px;
+  padding: 30px 90px 50px;
+  position: relative;
+  color: #d8e0df;
+  font-family: "Quicksand";
+}
+
+.pa{
+  width: 200ch;
+  font-size:8ch ;
+  background-color: rgb(245, 245, 245);
+  text-decoration: none;
+
+}
+
+.Listname{
+ 
+  font-family: "Quicksand";
+  font-size: 30px;
+  justify-content: center;
+  margin: 50px 90px 10px;
+  text-align: center;
+}
+
+
+.popup{
+  height: 500px;
+  width: 500px;
+  background-color: #d8e0df;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  margin-block-start: 5rem;
+  border-bottom: 2px solid #9baba9;
+  border-top: 2px solid #9baba9;
+  background-color: #f0f0f2;
+  font-family: "Quicksand";
+}
+
+.item-list:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.item p {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 8px;
+  font-family: "Quicksand";
+}
+
+.item-list {
+  background-color: #f0f0f2;
+  padding: 100px 90px;
+  font-family: "Quicksand";
+  width: 600px;
+}
